@@ -1,0 +1,17 @@
+[package]
+name = "growjoy_client"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+growjoy_core = { path = "../growjoy_core" }
+eframe = "0.30.0"
+egui_extras = { version = "0.30.0", features = ["svg", "syntect"] }
+egui = "0.30.0"
+egui-phosphor = { version = "0.8", features = ["fill"] }
+dirs = "5.0.1"
+paris = { version = "1.5", features = ["timestamps", "macros", "no_logger"] }
+gtworld-r = { git = "https://github.com/CLOEI/gtworld-r.git" }
+serde_json = "1.0.125"
+image = "0.25.5"
+rttex = { git = "https://github.com/CLOEI/rttex" }
